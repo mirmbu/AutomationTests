@@ -1,6 +1,6 @@
 import pytest
-from playwright.sync_api import Page, expect
-from pages.TravelPolicyPage import TravelPolicyPage
+from playwright.sync_api import Page
+from TravelPolicyAutomationTest.pages.travel_policy_page import TravelPolicyPage
 
 @pytest.fixture
 def travel(page: Page):
